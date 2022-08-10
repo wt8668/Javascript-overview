@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành hiển thị đầu ra</title>
+</head>
+<body>
+<button type="button" onclick="showMessage();">Click here for a surprise!</button>
+<script>
+function showMessage() {
+    alert('Bazinga!');
+}
+function showMessage(){
+    document.write('Bazinga!');
+}
+
+function showMessage() {
+    document.getElementById('messageDiv').innerHTML = 'Bazinga!';
+}
+</script>
+</body>
+</html>
